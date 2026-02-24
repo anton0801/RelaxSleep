@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "234134507119",
+    "project_id": "relaxsleep-10c5a",
+    "storage_bucket": "relaxsleep-10c5a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:234134507119:android:28389a922ec90bf60e479a",
+        "android_client_info": {
+          "package_name": "com.relaxationapp.relaxsleep"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCF_PbQJlBIwFLarba3OXvwO8jm68CyVSw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

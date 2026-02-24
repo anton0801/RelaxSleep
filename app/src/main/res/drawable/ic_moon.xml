@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+
+    <!-- Soft outer halo -->
+    <path
+        android:fillColor="#184DDFFF"
+        android:pathData="M60,60 m-54,0 a54,54 0 1,0 108,0 a54,54 0 1,0 -108,0" />
+
+    <!-- Mid halo -->
+    <path
+        android:fillColor="#224DDFFF"
+        android:pathData="M60,60 m-42,0 a42,42 0 1,0 84,0 a42,42 0 1,0 -84,0" />
+
+    <!-- Moon body (warm ivory) -->
+    <path
+        android:fillColor="#FFEEDD"
+        android:pathData="
+            M60,22
+            C80,22 95,38 95,58
+            C95,78 80,94 60,94
+            C40,94 25,78 25,58
+            C25,38 40,22 60,22 Z" />
+
+    <!-- Shadow cutout — creates crescent -->
+    <path
+        android:fillColor="#0D0038"
+        android:pathData="
+            M68,26
+            C82,32 91,46 91,62
+            C91,78 82,90 68,94
+            C54,98 38,90 30,78
+            C40,86 54,88 65,82
+            C76,76 83,64 81,52
+            C79,40 73,30 68,26 Z" />
+
+    <!-- Highlight glint top-left of moon -->
+    <path
+        android:fillColor="#55FFFFFF"
+        android:pathData="
+            M42,32 C44,29 50,28 52,30
+            C48,33 46,38 47,42
+            C44,38 41,35 42,32 Z" />
+
+</vector>
